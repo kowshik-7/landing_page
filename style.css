@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=REM:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=REM:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'REM', sans-serif; */
+    scroll-behavior: smooth;
+}
+
+/* BACKBROUND 1 */
+
+body{
+
+}
+.background1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url("https://store-bixbang.myshopify.com/cdn/shop/files/bgbg2_1900x.jpg?v=1613613172"); */
+    background-image: url("./images/bgimg1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navPart1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.navPart1 ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+.navPart1 ul li{
+    list-style: none;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.navPart1 ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+.navPart2{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.navPart2 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu';
+    font-size: 3.5em;
+    font-weight: 800;
+}
+
+.navPart2 a span{
+    font-size: 25px;
+}
+
+.navPart3{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.navPart3 ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navPart3 ul li{
+    list-style: none;
+    margin: 0.5em;
+}
+
+.content1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1 .line1{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.content1 .line2{
+    color: white;
+    font-size: 5em;
+    margin: 5px;
+}
+
+.content1 .btn1{
+    text-decoration: none;
+    color: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid white;
+    transition: .5s;
+}
+
+.content1 .btn1:hover{
+    background: none;
+    color: white;
+    font-weight: 900;
+}
+
+/* BACKGROUND 2 */
+
+
+.background2{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("./images/bgimg2.jpg");
+    /* background-image: url("https://store-bixbang.myshopify.com/cdn/shop/files/bgbg_1900x.jpg?v=1613613175"); */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content2{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 50px;
+}
+
+.content2 .line1{
+    color: #303030;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.content2 .line2{
+    color: #303030;
+    font-size: 5em;
+    margin: 5px;
+}
+
+.content2 .btn2{
+    text-decoration: none;
+    color: white;
+    background-color: #303030;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #303030;
+    transition: .5s;
+}
+
+.content2 .btn2:hover{
+    background: none;
+    color: #303030;
+}
+
+/* BACKGROUND 3 */
+
+.background3{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://store-bixbang.myshopify.com/cdn/shop/files/bbb_1900x.jpg?v=1613613175");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.content3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-right: 50px;
+}
+
+.content3 .line1{
+    color: white;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.content3 .line2{
+    color: white;
+    font-size: 5em;
+    margin: 5px;
+}
+
+.content3 .btn2{
+    text-decoration: none;
+    color: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid white;
+    transition: .5s;
+}
+
+.content3 .btn2:hover{
+    background: none;
+    color: white;
+}
+
+
+/* BACKGROUND 4 */
+
+.background4{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://store-bixbang.myshopify.com/cdn/shop/files/hanger_1900x.jpg?v=1613613180");
+    /* background-image: url("./images/bgimg3.jpg"); */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.content4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 100px;
+}
+
+.content4 .line1{
+    color: #303030;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.content4 .line2{
+    color: #303030;
+    font-size: 5em;
+    margin: 5px;
+}
+
+.content4 .btn2{
+    text-decoration: none;
+    color: white;
+    background-color: #303030;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #303030;
+    transition: .5s;
+}
+
+.content4 .btn2:hover{
+    background: none;
+    color: white;
+}
+
+/* CONTACT */
+
+.contact{
+    border: 0.1px solid hsl(0, 0%, 19%,20%);
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+}
+.contactContent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.contactContent .line1{
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+.contactContent .line2{
+    font-size: 1em;
+
+}
+
+.contactContent .input{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.contactContent .input input{
+    width: 40%;
+    border: 1px solid #303030;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.contactContent .input a{
+    padding: 15px;
+    background-color: #303030;
+    color: white;
+    border: 1px solid #303030;
+    transition: .5s;
+    margin-top: 10px;
+}
+
+.contactContent .input a:hover{
+    background-color: white;
+    color: #303030;
+}
+
+
+
+/* FOOTER */
+
+.footer{
+    height: 20vh;
+    width: 100%;
+
+}
+
+.footerContent1 ul{
+    display: flex;
+    justify-content: left;
+    gap: 2em;
+    padding: 2em 5em;
+}
+
+.footerContent1 ul li{
+    list-style: none;
+}
+
+
+
+
+/* Media query */
+
+@media only screen and (max-width:600px) {
+    .background1{
+        width: fit-content;
+    }
+
+    .navPart1 ul{
+        height: 100vh;
+        width: 100vw;
+        color: yellow;
+        /* display: none; */
+    }
+
+    .background2{
+        width: fit-content;
+    }
+    .background3{
+        width: fit-content;
+    }
+    .background4{
+        width: fit-content;
+    }
+
+    .nav{
+        /* display: none; */
+
+    }
+    
+    .content1 .line1{
+        font-size: 20px;
+        color: green;
+    }
+    
+}
+
+@media (max-width:768px) {  
+    
+}
+
+@media (max-width:1200px) {
+    
+}
+
+
+
+/* animation */
+
+
+.navPart1 ul li a:hover{
+    transform: scale(1.5);
+    transition: 0.5s ease-out;
+    padding: 10px;
+    background-color: white;
+    color: #303030;
+}
